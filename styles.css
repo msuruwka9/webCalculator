@@ -88,6 +88,7 @@ html{
     border-radius: 10px;
     background-color: #48cae4;
     margin: 5px;
+    font-size: 30px;
 }
 
 #numbers-container p:hover{
