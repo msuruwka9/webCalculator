@@ -48,6 +48,7 @@ function evaluateSign(e){ //displays number and sign in userInputTextAll and cle
     }
     sign = e.target.textContent;
     value1 = parseFloat(userInputText.textContent);
+    if(isNaN(value1)) return;
     userInputTextAll.textContent = value1 + ' ' + sign;
     userInputText.textContent = '';
 };
