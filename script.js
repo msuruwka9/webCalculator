@@ -39,6 +39,10 @@ function changeUserInput(e){
 };
 
 function evaluateSign(e){ //displays number and sign in userInputTextAll and clears userInputText
+    if(userInputText.textContent === ''){
+        alert('Input some numbers!');
+        return;
+    }
     if(userInputTextAll.textContent !== '' && userInputText.textContent !== ''){
         evaluateEquation(sign, value1, value2);
     }
